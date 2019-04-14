@@ -6,6 +6,7 @@ def line(deli)
 		deli.each_with_index do |value, index|
 		  line_info += " #{index.to_i + 1}. #{value}"
 			end
+			puts "#{line_info}"
 			end
 	end
 
