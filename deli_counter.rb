@@ -11,8 +11,6 @@ def line(array)
 	end
 
 def take_a_number(line, name)
-	number = 1
-	if line.length 
 	line.each do |name|
 		puts "Welcome, #{name}. You are number #{number} in line."
 		number += 1
