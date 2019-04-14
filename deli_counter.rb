@@ -1,11 +1,10 @@
 def line(deli)
-  number = 0
 	if deli.length == 0
 		puts "The line is currently empty."
-		else
-		  deli.each do |name|
-			  
-			  #{number += 1}. #{name}"
+	else
+		line_info = "The line is currently:"
+		deli.each_with_index do |value, index|
+		  line_info += " #{index.to_i + 1}. #{value}"
 			end
 			end
 	end
