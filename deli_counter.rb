@@ -4,7 +4,8 @@ def line(deli)
 		puts "The line is currently empty."
 		else
 		  deli.each do |name|
-			  puts "The line is currently: #{number += 1}. #{name}"
+			  
+			  #{number += 1}. #{name}"
 			end
 			end
 	end
