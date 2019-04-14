@@ -1,9 +1,9 @@
 def line(array)
+  number = 1
 	if array.length == 0
 		puts "The line is currently empty."
 		else
 		  array.each do |name|
-		    number = 1
 			  puts "The line is currently: #{number}. #{name}"
 			  number += 1
 			end
