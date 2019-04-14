@@ -7,6 +7,7 @@ def line(array)
 			puts "The line is currently: #{number}. #{name}"
 			number += 1
 			end
+			end
 	end
 
 def take_a_number(katz_deli, name)
